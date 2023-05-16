@@ -1,0 +1,51 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #f7f7f7;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas: "video-destaque propaganda" "video-destaque videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    grid-gap: 17px;
+    padding: 30px;
+}
+
+.secao-principal .titulo-principal {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.secao-principal .visualizacoes {
+    font-size: 14px;
+}
+
+.secao-principal p {
+    margin-top: 8px;
+}
+
+.videos-sugeridos .video{
+    display: flex;
+    height: 71px;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.videos-sugeridos .video p{
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.secao-principal {
+    grid-area: video-destaque;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.videos-sugeridos {
+    grid-area: videos-sugeridos;
+}
