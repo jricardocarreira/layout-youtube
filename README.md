@@ -1,10 +1,10 @@
-# Lista de imagens
+# Layout YouTube
 
-Essa é a solução da realização de um Lista de imagens proposto pelo curso DevQuest.
+Essa é a solução da realização de um Layout do YouTube proposto pelo curso DevQuest.
 
 ## Desafio
 
-Criar cards de imagens que sejam responsivas, para ser aprimorado as habilidades de posicionamento de elementos usando flexbox e mediaqueries para a responsividade em mobile.
+Criar uma interface de vídeos similiar ao Youtube, para ser aprimorado as habilidades de posicionamento de elementos usando grid e  flexbox.
 
 ## Screenshots
 
@@ -12,13 +12,10 @@ Versão para desktop
 
 <img src="./design/screenshot-desktop.png">
 
-Versão para mobile
-
-<img src="./design/screenshot-mobile.png">
-
 ## Tecnologias utilizadas
 
 - HTML
 - CSS
+- Grid
 - Flexbox
 
